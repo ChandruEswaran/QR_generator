@@ -29,7 +29,7 @@ It helps users create QR codes for URLs, text, or other information instantly.
 ---
 
 ## Demo
-You can Explore [here]().
+You can Explore [here](https://chandrueswaran.github.io/QR_generator/).
 
 ---
 

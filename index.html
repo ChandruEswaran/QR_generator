@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QR Code Generator</title>
+
+    <link rel="stylesheet" href="QR.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>QR Code Generator</h1>
+        <p>Quickly create custom QR codes - fast and simple.</p>
+    </header>
+
+    <main class="container">
+        <section class="qr-section">
+            <!-- <div class="qr-card">
+                <img class="qr-illustration" src="https://cdn-icons-png.flaticon.com/512/5306/5306963.png" alt="QR Demo" />
+            </div> -->
+            <div class="qrcode" id="qrcode"></div>
+            <div class="input-group">
+                <input type="text" id="qr-input" placeholder="Enter a URL or text here..." />
+                <button onclick="generateQr()">Generate</button>
+            </div>
+            <p class="note" style="color: aliceblue;">Tip: You can right-click the QR code and save it as an image!</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Built by <span>Chandru Eswaran</span> | Powered by JavaScript</p>
+    </footer>
+
+    <script src="QR.js"></script>
+</body>
+</html>
